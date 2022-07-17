@@ -1,0 +1,56 @@
+.clock{
+    color: white;
+    font-size: 120px;
+    font-weight: bold;
+}
+.greet{
+    color:white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.todo_input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 15%;
+}
+.todo_input div{
+    color: white;
+    font-size: 40px;
+}
+.todo_list{
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: left;
+    color: white;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+    height: 40%;
+    width: 18%;
+    border-color: white;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+.todo_list_headmassage{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.todo_list_list{
+    font-size: 25px;
+    margin-top: 5px;
+
+}
+.weather{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+}
